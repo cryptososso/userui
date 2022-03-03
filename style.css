@@ -271,6 +271,12 @@ h2{
    .repos a{
       margin-bottom: 0.8em;
    }
+
+   .repos-list{
+      flex-direction: column;
+      width: 80%;
+      text-align: center;
+   }
 }
 
 
