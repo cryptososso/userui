@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>GitHub UI</title>
+</head>
+<body>
+
+<div class="container">
+<div class="card-input">
+   <h1>Search GitHub Users</h1>
+   <p>Enter a username to fetch a user profile and repos</p>
+   <form>
+      <input type="text" id="user" placeholder="Enter User Name">
+      <a href="#" class="btn">Get User</a>
+   </form>
+</div>
+
+<hr>
+
+<div class="card-user">
+
+<div class="img-profile">
+<img src="./img/brad-2.jfif" alt="brad profile">
+<a href="#" class="btn-profile">View Profile</a>
+</div>
+
+<div class="user-info">
+   <ul class="stats">
+    <li class="stats-item blue">Public Repos: 240</li>
+    <li class="stats-item gray">Public Gists: 40</li>
+    <li class="stats-item green">Followers: 49886</li>
+    <li class="stats-item light-blue">Following: 6</li>
+   </ul>
+
+   <ul class="info">
+      <li class="info-item">Company: Traversy Media</li>
+      <li class="info-item">Website/Blog: traversymedia.com</li>
+      <li class="info-item">Location:Massachusetts</li>
+      <li class="info-item">Member Since: 2013-09-26</li>
+   </ul>
+</div>
+</div>
+
+<h2>Latest Repos</h2>
+
+<div class="card-repos">
+   <div class="repos">
+      <a href="#">50projects50days</a> 
+      <ul class="repos-list">
+         <li class="repos-list-item blue">Stars:11562</li>
+         <li class="repos-list-item gray">Watchers:11562</li>
+         <li class="repos-list-item green">Forks:3400</li>
+      </ul>
+   </div>
+   <div class="repos">
+      <a href="#">A-to-Z Resources for student </a> 
+      <ul class="repos-list">
+         <li class="repos-list-item blue">Stars:307</li>
+         <li class="repos-list-item gray">Watchers:307</li>
+         <li class="repos-list-item green">Forks: 141</li>
+      </ul>
+   </div>
+   <div class="repos">
+      <a href="#">a4app</a> 
+      <ul class="repos-list">
+         <li class="repos-list-item blue">Stars:83</li>
+         <li class="repos-list-item gray">Watchers:83</li>
+         <li class="repos-list-item green">Forks:52</li>
+      </ul>
+   </div>
+   <div class="repos">
+      <a href="#">acme_keystone</a> 
+      <ul class="repos-list">
+         <li class="repos-list-item blue">Stars:24</li>
+         <li class="repos-list-item gray">Watchers:24</li>
+         <li class="repos-list-item green">Forks:10</li>
+      </ul>
+   </div>
+   <div class="repos">
+      <a href="#">adonis40blog</a> 
+      <ul class="repos-list">
+         <li class="repos-list-item blue">Stars:25</li>
+         <li class="repos-list-item gray">Watchers:25</li>
+         <li class="repos-list-item green">Forks:18</li>
+      </ul>
+   </div>
+</div>
+
+</div>
+
+<footer>
+   <p>GitHub Finder &copy;</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
