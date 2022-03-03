@@ -205,6 +205,12 @@ img{
 
    .user-info{
       width: 90%;
+      margin: 0 auto;
+   }
+
+   .info{
+      text-align: center;
+      font-size: 0.9rem;
    }
 
    .stats{
