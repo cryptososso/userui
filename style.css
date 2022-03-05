@@ -176,6 +176,10 @@ img{
    color: #fff;
 }
 
+.hidden{
+   display: none;
+}
+
 .info{
    list-style: none;
    margin-left: 0.2em;
@@ -226,8 +230,14 @@ img{
 
 }
 
-h2{
-   font-size: 1.8rem;
+#btn-repos{
+   padding: 0.6em 0.8em;
+   margin-bottom: 1.2em;
+   background-color: #0277bc;
+   color: #fff;
+   text-transform: uppercase;
+   border: none;
+   border-radius: 5px;
 }
 
 .card-repos{
@@ -237,6 +247,7 @@ h2{
    border-radius: 5px;
    display: flex;
    flex-direction: column;
+   display: none;
 }
 
 .repos{
